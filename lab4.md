@@ -326,7 +326,7 @@ SwitchBase * CreateSwitchObject() {
 
 我们提供了本地测试程序，如果需要在本地进行测试，请进行如下步骤：
 
-1. 在根目录中执行 `cd test_local && mkdir build && cd build && cmake .. && make` ，这将编译本地测试程序
+1. 在根目录中执行 `cd test_local && mkdir build && cd build && cmake  .. && make` ，这将编译本地测试程序
 2. 将文件 `test_local/build/lab4_test` 拷贝到 `build/` 中，该操作只需在第一次获取测试程序或测试程序更新后执行
 
 注意，若测试程序发生更新，请执行如下指令获取最新的测试程序（我们会在教学网和微信群进行通知）：
